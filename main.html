@@ -4,13 +4,55 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<div id="container">
 
+      <div id="cardDeck" class="card-deck mb-2">        
+        <h3 class="card-title  c-hdr mb-2">Welcome to Sync5</h3>        
+        
+        <div class="card mb-2">
+          <div class="card-header ">
+          New Features
+          </div>
+          <div class="card-body">
+            <p class="card-title"> Mobile and Tablet support</p>
+            <p class="card-text">With this new update you will be sync your work across large number of platforms.</p>
+            <button type="button" class="btn btn-primary">Read more</button>
+          </div>
+
+        </div>
+
+        <div id="alert"  class="card bg-danger text-white mb-2">
+          <div class="card-header bg-danger p-3 ">Alert</div>
+          <div class="card-body ">
+              <h5>Node Dead</h5>
+              <p class="card-text">Node 5 (east-us) is offline for last 12 days.</p>
+           </div>
+        </div>
+
+        <div id="card" class="card mb-2">
+          
+          <img src="https://images.unsplash.com/photo-1507835661088-ac1e84fe645f?q=80&w=1924&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" 
+          class="card-img-top">
+          <div class="card-body">
+            <p class="card-title">President under Pressure</p>
+            <p class="card-text ">The US President is under Pressure to respond to a widespread cyber-attack linked to china.</p>
+            <small class="text-muted">Last updated 12 min ago</small>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

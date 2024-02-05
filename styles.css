@@ -1,2 +1,26 @@
+body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      #container{
+        /* display: flex; */
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;       
+        width:100vw;
 
-/* Your CSS Code here. */
+      }     
+      .c-hdr{
+        font-size: 30px;        
+      }
+      .card-title{
+        font-weight: bold;
+      }
+      #alert{        
+        width:40%
+      }
+      img{        
+        height: 190px;        
+      } 
